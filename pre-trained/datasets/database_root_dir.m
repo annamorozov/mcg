@@ -20,7 +20,7 @@ function db_root_dir = database_root_dir( database )
 if strcmp(database,'pascal2012')
     db_root_dir ='/path/to/pascal2012/';
 elseif strcmp(database,'COCO')
-    db_root_dir = '/path/to/COCO/';
+    db_root_dir = '/home/labs/paz/annamor/Datasets/val2017';
 elseif strcmp(database,'SBD')
     db_root_dir = '/path/to/SBD/';
 else
